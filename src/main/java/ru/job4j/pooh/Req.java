@@ -37,7 +37,7 @@ public class Req {
         if (httpRequestType.equals("POST")) {
             param = lastLine;
         }
-        if (httpRequestType.equals("GET") && modeSourseParam.length > 3 ) {
+        if (httpRequestType.equals("GET") && modeSourseParam.length > 3) {
             param = modeSourseParam[3];
         }
         System.out.println("Param: " + param);
