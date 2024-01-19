@@ -1,6 +1,7 @@
 package ru.job4j.pooh;
 
 public class Req {
+
     private final String httpRequestType;
     private final String poohMode;
     private final String sourceName;
@@ -14,10 +15,6 @@ public class Req {
     }
 
     public static Req of(String content) {
-        /* TODO parse a content */
-        System.out.println("---------");
-        System.out.println("PARSE REQ");
-        System.out.println("---------");
         String httpRequestType = "";
         String poohMode = "";
         String sourceName = "";
